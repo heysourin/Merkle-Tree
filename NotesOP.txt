@@ -36,3 +36,7 @@
 8. Helpfull package:
     a. 'npm install @openzeppelin/contracts keccak256 merkletreejs'
 
+9. Process:
+    * keccak256((bytes(data)))
+    ** data --> address, int ie can be multiple
+
