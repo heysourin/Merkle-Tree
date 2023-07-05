@@ -39,4 +39,11 @@
 9. Process:
     * keccak256((bytes(data)))
     ** data --> address, int ie can be multiple
+10. How does a merkle proof work?
+    We give the verifier the value of the node we want to check along with all other nodes which are required from the tree to hash up and form the root hash r.
 
+11. How is each leaf node labeled in Merkle Tree?
+    Cryptographic hash of the data block
+
+12. How is each non-leaf node labeled in Merkle Tree?
+    Cryptographic hash of its child nodes' values.
